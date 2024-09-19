@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyLite - Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>KeyLite</h1>
+            <p>Test your typing speed and accuracy</p>
+        </header>
+
+        <div class="test-controls">
+            <div class="word-length">
+                <button class="length-btn">10</button>
+                <button class="length-btn">25</button>
+                <button class="length-btn">50</button>
+                <button class="length-btn">100</button>
+            </div>
+            <div class="stats-display">
+                <span>WPM: <span id="wpm">--</span></span>
+                <span>ACC: <span id="accuracy">--</span></span>
+            </div>
+        </div>
+
+        <div class="typing-area">
+            <p id="word-display">Loading words...</p>
+            <input type="text" id="typing-input" placeholder="Start typing here..." autofocus>
+        </div>
+
+        <div class="reset-container">
+            <button id="reset-btn">Restart</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
