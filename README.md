@@ -1,2 +1,2 @@
 # KeyLite
-Test your typing speed and accuracy
+Sleek, aesthetic typing site heavily inspired by typings.gg
